@@ -5,6 +5,7 @@ import useFetch from '../hooks/useFetch';
 
 
 function MainPage() {
+  // TODO: loading and error pages
   const [page, setPage] = useState(1);
   const { loading, error, characters} = useFetch(page);
   const loader = useRef(null)
