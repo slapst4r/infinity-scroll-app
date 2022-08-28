@@ -38,7 +38,6 @@ function MainPage() {
             </div>
         <div ref={loader}/>
         </>
-        <h1>{"Тоха хуй саси))))))))"}</h1>
     </div>
   )
 }
